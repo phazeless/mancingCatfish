@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac7c35d087693cf5b01fb161081ef05, type: 3}
+  m_Name: --ST1-2-z-AllInc
+  m_EditorClassIdentifier: 
+  _objectReferences:
+  - {fileID: 21300000, guid: d51cefa72d35452087a148c9c5d096ca, type: 3}
+  - {fileID: 11400000, guid: 2e05c022da3b44e196687ba4e278aa00, type: 2}
+  - {fileID: 11400000, guid: 9159f4aca22946179182151bd967fe19, type: 2}
+  _serializedStateKeys:
+  - IsUnlocked
+  - skillType
+  - activeSkill
+  - skillExtraInfo
+  - skillBehaviours
+  _serializedStateValues:
+  - true
+  - '"Passive"'
+  - 
+  - '{"IsCrew":false,"IsPartOfSkillTree":true,"IgnoreReset":false,"IgnoreIGN":false,"IsFacebookCrew":false,"IsOnlyAvailableThroughPurchase":false,"CacheCurrentLevelAsBigInteger":false,"Icon":0,"IconBgColor":{"r":0.3372549,"g":0.7450981,"b":0.8470589,"a":1.0},"TitleText":"Bread
+    Crumbs","DescriptionText":"-","MiscText":"No misc-text has been assigned...","PurchaseWith":"SkillPoints","CostMethod":"ByFormula1","InitialUpgradeCost":{"Value":{},"stringValue":"2"},"CostPerLevel":{"Value":{},"stringValue":"0"},"ExponentialLevelCostModifier":1,"CostPerLevels":[],"DependancyLevelUp":1,"DependancyLevelUpType":"Current","DependancyLevelUpPerXthLevel":1,"SkillSpecifics":null,"RequiredFishingExperience":0,"RequiredDeepWaterLevel":0}'
+  - '[2]'
+  id: c7ef98bd-708a-40b5-99ac-b0e6152dc116
+  skillType: 0
+  duration: 0
+  cooldown: 0
+  maxLevel: 5
+  skillExtraInfo:
+    IsCrew: 0
+    IsPartOfSkillTree: 1
+    IgnoreReset: 0
+    IgnoreIGN: 0
+    IsFacebookCrew: 0
+    IsOnlyAvailableThroughPurchase: 0
+    CacheCurrentLevelAsBigInteger: 0
+    Icon: {fileID: 21300000, guid: d51cefa72d35452087a148c9c5d096ca, type: 3}
+    IconBgColor: {r: 0.3372549, g: 0.7450981, b: 0.8470589, a: 1}
+    TitleText: Bread Crumbs
+    DescriptionText: '-'
+    MiscText: No misc-text has been assigned...
+    PurchaseWith: 2
+    CostMethod: 0
+    InitialUpgradeCost:
+      stringValue: 2
+    CostPerLevel:
+      stringValue: 0
+    ExponentialLevelCostModifier: 1
+    CostPerLevels: []
+    DependancyLevelUp: {fileID: 11400000, guid: 2e05c022da3b44e196687ba4e278aa00,
+      type: 2}
+    DependancyLevelUpType: 0
+    DependancyLevelUpPerXthLevel: 1
+    RequiredFishingExperience: 0
+    RequiredDeepWaterLevel: 0
+  skillBehaviours:
+  - {fileID: 11400000, guid: 9159f4aca22946179182151bd967fe19, type: 2}

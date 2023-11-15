@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 226c47833fa4d239a000debbea4d699e, type: 3}
+  m_Name: "ChestSpawnSettings_0"
+  m_EditorClassIdentifier: 
+  _objectReferences: []
+  _serializedStateKeys:
+  - "ign"
+  - "swimBehaviours"
+  _serializedStateValues:
+  - "{\"Chest\":null,\"OverrideClearable\":false,\"$type\":\"IGNItemChest\"}"
+  - "[{\"$type\":\"SwimStraight\"},{\"ActualTurnAngle\":0.0,\"HasOverriddenTurnAngle\":false,\"turnTime\":0.5,\"minTurnAngle\":-1.0,\"maxTurnAngle\":1.0,\"$type\":\"SwimTowards\"}]"
+  prefabToSpawn: {fileID: 1790284858828073935, guid: e36ad9f6d471eb3448800f3f2576ddda, type: 2}
+  speed: 1
+  spawnFrequencyCheckInSeconds: 410
+  chanceForSpawn: 60
+  maxNumberInIGNList: 3
+  minDWToSpawn: 1
+  Chest: {fileID: 11400000, guid: cdf2406e666f478a9652003f23f9b276, type: 2}

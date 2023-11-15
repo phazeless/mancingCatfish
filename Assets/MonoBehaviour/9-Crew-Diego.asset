@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac7c35d087693cf5b01fb161081ef05, type: 3}
+  m_Name: 9-Crew-Diego
+  m_EditorClassIdentifier: 
+  _objectReferences:
+  - {fileID: 21300000, guid: 0c6a019d9dc04ecfb76ad555e80b2851, type: 3}
+  - {fileID: 11400000, guid: 0d07ff0bdfc74d52ab23b7b782238275, type: 2}
+  - {fileID: 11400000, guid: ee6ff1bcde8d4fc3bc22c9f9fd0783d3, type: 2}
+  - {fileID: 11400000, guid: 22b05d99fd71411394ed3b9ffab775fa, type: 2}
+  _serializedStateKeys:
+  - IsUnlocked
+  - skillType
+  - activeSkill
+  - skillExtraInfo
+  - skillBehaviours
+  _serializedStateValues:
+  - false
+  - '"Passive"'
+  - 
+  - '{"IsCrew":true,"IsPartOfSkillTree":false,"IgnoreReset":false,"IgnoreIGN":false,"IsFacebookCrew":false,"IsOnlyAvailableThroughPurchase":false,"CacheCurrentLevelAsBigInteger":false,"Icon":0,"IconBgColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"TitleText":"Diego","DescriptionText":"\"I''ll
+    lure more fishes onboard than ever before! Just add me to your crew!\"","MiscText":"Hola,
+    Boss!","PurchaseWith":"Gems","CostMethod":"ByFormula1","InitialUpgradeCost":{"Value":{},"stringValue":"0"},"CostPerLevel":{"Value":{},"stringValue":"20"},"ExponentialLevelCostModifier":3,"CostPerLevels":[],"DependancyLevelUp":null,"DependancyLevelUpType":"Current","DependancyLevelUpPerXthLevel":1,"SkillSpecifics":{"$type":"Skills+None"},"RequiredFishingExperience":0,"RequiredDeepWaterLevel":9}'
+  - '[1,2,3]'
+  id: 37774206-d5ba-4bfe-be76-31a18e8d525f
+  skillType: 0
+  duration: 0
+  cooldown: 0
+  maxLevel: 8
+  skillExtraInfo:
+    IsCrew: 1
+    IsPartOfSkillTree: 0
+    IgnoreReset: 0
+    IgnoreIGN: 0
+    IsFacebookCrew: 0
+    IsOnlyAvailableThroughPurchase: 0
+    CacheCurrentLevelAsBigInteger: 0
+    Icon: {fileID: 21300000, guid: 0c6a019d9dc04ecfb76ad555e80b2851, type: 3}
+    IconBgColor: {r: 1, g: 1, b: 1, a: 1}
+    TitleText: Diego
+    DescriptionText: '"I''ll lure more fishes onboard than ever before! Just add me
+      to your crew!"'
+    MiscText: Hola, Boss!
+    PurchaseWith: 1
+    CostMethod: 0
+    InitialUpgradeCost:
+      stringValue: 0
+    CostPerLevel:
+      stringValue: 20
+    ExponentialLevelCostModifier: 3
+    CostPerLevels: []
+    DependancyLevelUp: {fileID: 0}
+    DependancyLevelUpType: 0
+    DependancyLevelUpPerXthLevel: 1
+    RequiredFishingExperience: 0
+    RequiredDeepWaterLevel: 9
+  skillBehaviours:
+  - {fileID: 11400000, guid: 0d07ff0bdfc74d52ab23b7b782238275, type: 2}
+  - {fileID: 11400000, guid: ee6ff1bcde8d4fc3bc22c9f9fd0783d3, type: 2}
+  - {fileID: 11400000, guid: 22b05d99fd71411394ed3b9ffab775fa, type: 2}

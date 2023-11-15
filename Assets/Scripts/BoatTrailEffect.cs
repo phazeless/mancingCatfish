@@ -1,0 +1,87 @@
+using System;
+using DG.Tweening;
+using DG.Tweening.Core;
+using DG.Tweening.Plugins.Options;
+using UnityEngine;
+
+[RequireComponent(typeof(LineRenderer))]
+public class BoatTrailEffect : MonoBehaviour
+{
+	private void Awake()
+	{
+		this.rndID = UnityEngine.Random.Range(0, 999999);
+		this.lineRenderer = base.GetComponent<LineRenderer>();
+		this.lineRenderer.sortingOrder = -10;
+		this.animationCurve.AddKey(0f, 0.3f);
+		this.animationCurve.AddKey(0.01f, 0.3f);
+		this.animationCurve.AddKey(1f, 0.9f);
+	}
+
+	private void OnEnable()
+	{
+		this.TweenKiller();
+		this.v0 = 0f;
+		this.v1 = 0.3f;
+		this.v2 = 1f;
+		this.t1 = 0.01f;
+		DOTween.To(() => this.v1, delegate(float x)
+		{
+			this.v1 = x;
+		}, 0.99f, 0.8f).SetLoops(-1, LoopType.Restart).SetEase(Ease.Linear).SetId("BoatTrailEffectValueTween" + this + this.rndID);
+		DOTween.To(() => this.t1, delegate(float x)
+		{
+			this.t1 = x;
+		}, 0.99f, 0.8f).SetLoops(-1, LoopType.Restart).SetEase(Ease.Linear).SetId("BoatTrailEffectTimeTween" + this + this.rndID);
+	}
+
+	private void Update()
+	{
+		this.lineRenderer.widthCurve = this.animationCurve;
+		this.animationCurve.MoveKey(0, new Keyframe(0f, 0.3f * BoatMovementHandler.boatMovementSpeed * BoatMovementHandler.effectboost));
+		this.animationCurve.MoveKey(1, new Keyframe(this.t1, this.v1 * BoatMovementHandler.boatMovementSpeed * BoatMovementHandler.effectboost));
+		this.animationCurve.MoveKey(2, new Keyframe(1f, this.v2 * BoatMovementHandler.boatMovementSpeed * BoatMovementHandler.effectboost));
+	}
+
+	private float getter()
+	{
+		return this.animationCurve[1].value;
+	}
+
+	private void setter(float x)
+	{
+		this.v1 = x;
+	}
+
+	private void TweenKiller()
+	{
+		DOTween.Kill("BoatTrailEffectValueTween" + this + this.rndID, true);
+		DOTween.Kill("BoatTrailEffectTimeTween" + this + this.rndID, true);
+	}
+
+	private void OnDisable()
+	{
+		this.TweenKiller();
+	}
+
+	private void OnDestroy()
+	{
+		this.TweenKiller();
+	}
+
+	private LineRenderer lineRenderer;
+
+	private AnimationCurve animationCurve = new AnimationCurve();
+
+	[SerializeField]
+	private ParticleSystem boatBackParticle;
+
+	private float v0;
+
+	private float v1 = 0.3f;
+
+	private float v2 = 1f;
+
+	private float t1 = 0.01f;
+
+	private int rndID;
+}

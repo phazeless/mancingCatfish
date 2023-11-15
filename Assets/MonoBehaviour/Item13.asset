@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2905cd688cd2d8f2d18f61e9d2806b06, type: 3}
+  m_Name: "Item13"
+  m_EditorClassIdentifier: 
+  _objectReferences:
+  - {fileID: 11400000, guid: 83b546a42f104433ac1144fdd0156c36, type: 2}
+  - {fileID: 11400000, guid: da4fd689ef85401f9c39fe0f5b7a27f0, type: 2}
+  _serializedStateKeys:
+  - "iconBgColor"
+  - "rarity"
+  - "skillBehaviours"
+  - "customLogics"
+  _serializedStateValues:
+  - "{\"r\":0.0,\"g\":0.0,\"b\":0.0,\"a\":0.1960784}"
+  - "\"Rare\""
+  - "[0,1]"
+  - "[]"
+  id: "cad96c0d-05de-4fc4-ab86-0b167bf8b1f5"
+  maxLevel: 10
+  icon: {fileID: 21300000, guid: c6ae6f502958465eb30a8383ac67a118, type: 3}
+  iconBgColor: {r: 0, g: 0, b: 0, a: 0.1960784}
+  rarity: 1
+  title: "Crab Master 2000"
+  description: "Checks for a catch every 3 minutes."
+  skillBehaviours:
+  - {fileID: 11400000, guid: 83b546a42f104433ac1144fdd0156c36, type: 2}
+  - {fileID: 11400000, guid: da4fd689ef85401f9c39fe0f5b7a27f0, type: 2}
+  isHolidayItem: 0

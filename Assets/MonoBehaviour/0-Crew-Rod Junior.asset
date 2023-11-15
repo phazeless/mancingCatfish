@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac7c35d087693cf5b01fb161081ef05, type: 3}
+  m_Name: 0-Crew-Rod Junior
+  m_EditorClassIdentifier: 
+  _objectReferences:
+  - {fileID: 21300000, guid: ee7357ee00734ac1b6fe3074a194ff7b, type: 3}
+  - {fileID: 11400000, guid: c5cbbe465adf45f89f86318b69e7d3c0, type: 2}
+  - {fileID: 11400000, guid: fc03f6824cb845de9637a53578358ddd, type: 2}
+  _serializedStateKeys:
+  - IsUnlocked
+  - skillType
+  - activeSkill
+  - skillExtraInfo
+  - skillBehaviours
+  _serializedStateValues:
+  - true
+  - '"Passive"'
+  - 
+  - '{"IsCrew":true,"IsPartOfSkillTree":false,"IgnoreReset":false,"IgnoreIGN":true,"IsFacebookCrew":false,"IsOnlyAvailableThroughPurchase":false,"CacheCurrentLevelAsBigInteger":false,"Icon":0,"IconBgColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"TitleText":"Rod
+    Junior","DescriptionText":"\"My dad taught me everything he knows... almost.\"","MiscText":"Good
+    day, Boss!","PurchaseWith":"Gems","CostMethod":"ByLevel","InitialUpgradeCost":{"Value":{},"stringValue":"0"},"CostPerLevel":{"Value":{},"stringValue":"3"},"ExponentialLevelCostModifier":2,"CostPerLevels":[{"Value":{},"stringValue":"0"},{"Value":{},"stringValue":"1"},{"Value":{},"stringValue":"2"},{"Value":{},"stringValue":"4"},{"Value":{},"stringValue":"6"},{"Value":{},"stringValue":"8"},{"Value":{},"stringValue":"10"},{"Value":{},"stringValue":"13"},{"Value":{},"stringValue":"16"},{"Value":{},"stringValue":"20"},{"Value":{},"stringValue":"23"},{"Value":{},"stringValue":"26"},{"Value":{},"stringValue":"30"},{"Value":{},"stringValue":"33"},{"Value":{},"stringValue":"36"},{"Value":{},"stringValue":"40"},{"Value":{},"stringValue":"43"},{"Value":{},"stringValue":"46"},{"Value":{},"stringValue":"50"},{"Value":{},"stringValue":"53"},{"Value":{},"stringValue":"56"},{"Value":{},"stringValue":"60"},{"Value":{},"stringValue":"63"},{"Value":{},"stringValue":"66"},{"Value":{},"stringValue":"70"},{"Value":{},"stringValue":"73"},{"Value":{},"stringValue":"76"},{"Value":{},"stringValue":"80"},{"Value":{},"stringValue":"83"},{"Value":{},"stringValue":"86"},{"Value":{},"stringValue":"90"},{"Value":{},"stringValue":"93"},{"Value":{},"stringValue":"96"},{"Value":{},"stringValue":"100"},{"Value":{},"stringValue":"103"},{"Value":{},"stringValue":"106"},{"Value":{},"stringValue":"110"},{"Value":{},"stringValue":"113"},{"Value":{},"stringValue":"116"},{"Value":{},"stringValue":"120"},{"Value":{},"stringValue":"123"},{"Value":{},"stringValue":"125"}],"DependancyLevelUp":null,"DependancyLevelUpType":"Current","DependancyLevelUpPerXthLevel":10,"SkillSpecifics":{"$type":"Skills+None"},"RequiredFishingExperience":0,"RequiredDeepWaterLevel":0}'
+  - '[1,2]'
+  id: 622853bb-fe2e-4301-8360-5a8c7205002b
+  skillType: 0
+  duration: 0
+  cooldown: 0
+  maxLevel: 40
+  skillExtraInfo:
+    IsCrew: 1
+    IsPartOfSkillTree: 0
+    IgnoreReset: 0
+    IgnoreIGN: 1
+    IsFacebookCrew: 0
+    IsOnlyAvailableThroughPurchase: 0
+    CacheCurrentLevelAsBigInteger: 0
+    Icon: {fileID: 21300000, guid: ee7357ee00734ac1b6fe3074a194ff7b, type: 3}
+    IconBgColor: {r: 1, g: 1, b: 1, a: 1}
+    TitleText: Rod Junior
+    DescriptionText: '"My dad taught me everything he knows... almost."'
+    MiscText: Good day, Boss!
+    PurchaseWith: 1
+    CostMethod: 1
+    InitialUpgradeCost:
+      stringValue: 0
+    CostPerLevel:
+      stringValue: 3
+    ExponentialLevelCostModifier: 2
+    CostPerLevels:
+    - stringValue: 0
+    - stringValue: 1
+    - stringValue: 2
+    - stringValue: 4
+    - stringValue: 6
+    - stringValue: 8
+    - stringValue: 10
+    - stringValue: 13
+    - stringValue: 16
+    - stringValue: 20
+    - stringValue: 23
+    - stringValue: 26
+    - stringValue: 30
+    - stringValue: 33
+    - stringValue: 36
+    - stringValue: 40
+    - stringValue: 43
+    - stringValue: 46
+    - stringValue: 50
+    - stringValue: 53
+    - stringValue: 56
+    - stringValue: 60
+    - stringValue: 63
+    - stringValue: 66
+    - stringValue: 70
+    - stringValue: 73
+    - stringValue: 76
+    - stringValue: 80
+    - stringValue: 83
+    - stringValue: 86
+    - stringValue: 90
+    - stringValue: 93
+    - stringValue: 96
+    - stringValue: 100
+    - stringValue: 103
+    - stringValue: 106
+    - stringValue: 110
+    - stringValue: 113
+    - stringValue: 116
+    - stringValue: 120
+    - stringValue: 123
+    - stringValue: 125
+    DependancyLevelUp: {fileID: 0}
+    DependancyLevelUpType: 0
+    DependancyLevelUpPerXthLevel: 10
+    RequiredFishingExperience: 0
+    RequiredDeepWaterLevel: 0
+  skillBehaviours:
+  - {fileID: 11400000, guid: c5cbbe465adf45f89f86318b69e7d3c0, type: 2}
+  - {fileID: 11400000, guid: fc03f6824cb845de9637a53578358ddd, type: 2}

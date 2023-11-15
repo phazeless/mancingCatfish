@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac7c35d087693cf5b01fb161081ef05, type: 3}
+  m_Name: ST-Reward-100
+  m_EditorClassIdentifier: 
+  _objectReferences:
+  - {fileID: 21300000, guid: d51cefa72d35452087a148c9c5d096ca, type: 3}
+  - {fileID: 11400000, guid: b2c25e9dfaa34ac1bad16b7570091090, type: 2}
+  _serializedStateKeys:
+  - IsUnlocked
+  - skillType
+  - activeSkill
+  - skillExtraInfo
+  - skillBehaviours
+  _serializedStateValues:
+  - true
+  - '"Passive"'
+  - 
+  - '{"IsCrew":false,"IsPartOfSkillTree":true,"IgnoreReset":false,"IgnoreIGN":false,"IsFacebookCrew":false,"IsOnlyAvailableThroughPurchase":false,"CacheCurrentLevelAsBigInteger":false,"Icon":0,"IconBgColor":{"r":0.3372549,"g":0.7450981,"b":0.8470589,"a":1.0},"TitleText":"Adventurer","DescriptionText":"Valuueee
+    is added :)","MiscText":"No misc-text has been assigned...","PurchaseWith":"CrownExp","CostMethod":"ByFormula1","InitialUpgradeCost":{"Value":{},"stringValue":"0"},"CostPerLevel":{"Value":{},"stringValue":"0"},"ExponentialLevelCostModifier":1,"CostPerLevels":[],"DependancyLevelUp":null,"DependancyLevelUpType":"Current","DependancyLevelUpPerXthLevel":1,"SkillSpecifics":null,"RequiredFishingExperience":0,"RequiredDeepWaterLevel":0}'
+  - '[1]'
+  id: d47d3834-8ea7-4c19-9daa-2badb03ec627
+  skillType: 0
+  duration: 0
+  cooldown: 0
+  maxLevel: 100
+  skillExtraInfo:
+    IsCrew: 0
+    IsPartOfSkillTree: 1
+    IgnoreReset: 0
+    IgnoreIGN: 0
+    IsFacebookCrew: 0
+    IsOnlyAvailableThroughPurchase: 0
+    CacheCurrentLevelAsBigInteger: 0
+    Icon: {fileID: 21300000, guid: d51cefa72d35452087a148c9c5d096ca, type: 3}
+    IconBgColor: {r: 0.3372549, g: 0.7450981, b: 0.8470589, a: 1}
+    TitleText: Adventurer
+    DescriptionText: Valuueee is added :)
+    MiscText: No misc-text has been assigned...
+    PurchaseWith: 3
+    CostMethod: 0
+    InitialUpgradeCost:
+      stringValue: 0
+    CostPerLevel:
+      stringValue: 0
+    ExponentialLevelCostModifier: 1
+    CostPerLevels: []
+    DependancyLevelUp: {fileID: 0}
+    DependancyLevelUpType: 0
+    DependancyLevelUpPerXthLevel: 1
+    RequiredFishingExperience: 0
+    RequiredDeepWaterLevel: 0
+  skillBehaviours:
+  - {fileID: 11400000, guid: b2c25e9dfaa34ac1bad16b7570091090, type: 2}

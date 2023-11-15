@@ -1,0 +1,304 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1021311966738072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4948894907651238}
+  - component: {fileID: 114812102585268204}
+  - component: {fileID: 114699267475886850}
+  m_Layer: 0
+  m_Name: fiPersistentEditorStorage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4948894907651238
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021311966738072}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114812102585268204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021311966738072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3b5fe0e79f64584a83676f21be2d2a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keys:
+  - {fileID: 11400000, guid: 8c693464d5944f6c93db91074dad1d82, type: 2}
+  - {fileID: 11400000, guid: 73dd86b337dc42eda8d2d945c5261977, type: 2}
+  - {fileID: 11400000, guid: 3f37c9e771354872809e930246547a2a, type: 2}
+  - {fileID: 11400000, guid: d2a64f8f09ef44a0911358e1b1c3a91a, type: 2}
+  - {fileID: 11400000, guid: c426c84dff074d3fb6b720842d4123d8, type: 2}
+  - {fileID: 11400000, guid: 14f20b9513a44eb59ec981ff32f87a00, type: 2}
+  - {fileID: 11400000, guid: 5fa0c23b4079444ab567f39dc0849681, type: 2}
+  - {fileID: 11400000, guid: 2a8e181f3f6e42cdac1615911e203198, type: 2}
+  - {fileID: 11400000, guid: fd41c3e351a34a778ce093cfedc263b0, type: 2}
+  - {fileID: 11400000, guid: d6e53242270a4200a01346955135989b, type: 2}
+  - {fileID: 11400000, guid: 8aa18c5194eb473284e29815f94bae82, type: 2}
+  - {fileID: 11400000, guid: 98994e5ae5b147ccbaf7f6b04d1c6fcd, type: 2}
+  - {fileID: 11400000, guid: 65e680ec48434e508709fdcfb3579efa, type: 2}
+  - {fileID: 11400000, guid: d8ee80f121f041a48854b9515dc97ad8, type: 2}
+  - {fileID: 11400000, guid: 07d5537de25b4fc49ae9646c9e1a9dcd, type: 2}
+  - {fileID: 11400000, guid: 6aeb09abc9314767a045e7172af0be94, type: 2}
+  - {fileID: 11400000, guid: 8a31210c27ed4ea2aa39620eec89de5d, type: 2}
+  - {fileID: 11400000, guid: 8adb3d6d7df04bb4bbd93dd1abe49933, type: 2}
+  - {fileID: 11400000, guid: 71b333098b894a41a8cbca3276148c5d, type: 2}
+  _values:
+  - _keys:
+    - DefaultBehaviorEditor.id.EditProperty
+    _values:
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    _target: {fileID: 11400000, guid: 8c693464d5944f6c93db91074dad1d82, type: 2}
+  - _keys:
+    - DefaultBehaviorEditor.CurrentLevel.EditProperty
+    - DefaultBehaviorEditor.LifetimeLevel.EditProperty
+    - DefaultBehaviorEditor.HighestLevel.EditProperty
+    - DefaultBehaviorEditor.id.EditProperty
+    _values:
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    _target: {fileID: 11400000, guid: 73dd86b337dc42eda8d2d945c5261977, type: 2}
+  - _keys:
+    - DefaultBehaviorEditor.changeValue.EditProperty
+    - DefaultBehaviorEditor.changeMethod.EditProperty
+    _values:
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    _target: {fileID: 11400000, guid: 3f37c9e771354872809e930246547a2a, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: d2a64f8f09ef44a0911358e1b1c3a91a, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: c426c84dff074d3fb6b720842d4123d8, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: 14f20b9513a44eb59ec981ff32f87a00, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: 5fa0c23b4079444ab567f39dc0849681, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: 2a8e181f3f6e42cdac1615911e203198, type: 2}
+  - _keys:
+    - DefaultBehaviorEditor.CurrentLevel.EditProperty
+    - DefaultBehaviorEditor.LifetimeLevel.EditProperty
+    - DefaultBehaviorEditor.HighestLevel.EditProperty
+    - DefaultBehaviorEditor.id.EditProperty
+    _values:
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    _target: {fileID: 11400000, guid: fd41c3e351a34a778ce093cfedc263b0, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: d6e53242270a4200a01346955135989b, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: 8aa18c5194eb473284e29815f94bae82, type: 2}
+  - _keys:
+    - DefaultBehaviorEditor.CurrentLevel.EditProperty
+    - DefaultBehaviorEditor.CurrentItemAmount.EditProperty
+    - DefaultBehaviorEditor.id.EditProperty
+    _values:
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    _target: {fileID: 11400000, guid: 98994e5ae5b147ccbaf7f6b04d1c6fcd, type: 2}
+  - _keys:
+    - DefaultBehaviorEditor.CurrentLevel.EditProperty
+    - DefaultBehaviorEditor.CurrentItemAmount.EditProperty
+    - DefaultBehaviorEditor.id.EditProperty
+    _values:
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    _target: {fileID: 11400000, guid: 65e680ec48434e508709fdcfb3579efa, type: 2}
+  - _keys:
+    - DefaultBehaviorEditor.changeValue.EditProperty
+    - DefaultBehaviorEditor.changeMethod.EditProperty
+    _values:
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    _target: {fileID: 11400000, guid: d8ee80f121f041a48854b9515dc97ad8, type: 2}
+  - _keys:
+    - DefaultBehaviorEditor.changeValue.EditProperty
+    - DefaultBehaviorEditor.changeMethod.EditProperty
+    _values:
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    _target: {fileID: 11400000, guid: 07d5537de25b4fc49ae9646c9e1a9dcd, type: 2}
+  - _keys:
+    - DefaultBehaviorEditor.changeValue.EditProperty
+    - DefaultBehaviorEditor.changeMethod.EditProperty
+    _values:
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    _target: {fileID: 11400000, guid: 6aeb09abc9314767a045e7172af0be94, type: 2}
+  - _keys:
+    - DefaultBehaviorEditor.changeValue.EditProperty
+    - DefaultBehaviorEditor.changeMethod.EditProperty
+    _values:
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    _target: {fileID: 11400000, guid: 8a31210c27ed4ea2aa39620eec89de5d, type: 2}
+  - _keys:
+    - DefaultBehaviorEditor.CurrentLevel.EditProperty
+    - DefaultBehaviorEditor.CurrentItemAmount.EditProperty
+    - DefaultBehaviorEditor.id.EditProperty
+    _values:
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    _target: {fileID: 11400000, guid: 8adb3d6d7df04bb4bbd93dd1abe49933, type: 2}
+  - _keys:
+    - DefaultBehaviorEditor.changeValue.EditProperty
+    - DefaultBehaviorEditor.changeMethod.EditProperty
+    _values:
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    - _showDropdown: 0
+      _serializedIsActive: 1
+    _target: {fileID: 11400000, guid: 71b333098b894a41a8cbca3276148c5d, type: 2}
+--- !u!114 &114699267475886850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021311966738072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be205b8c5a2f88c408c5e5343719637c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _keys:
+  - {fileID: 11400000, guid: 8c693464d5944f6c93db91074dad1d82, type: 2}
+  - {fileID: 11400000, guid: 73dd86b337dc42eda8d2d945c5261977, type: 2}
+  - {fileID: 11400000, guid: 3f37c9e771354872809e930246547a2a, type: 2}
+  - {fileID: 11400000, guid: d2a64f8f09ef44a0911358e1b1c3a91a, type: 2}
+  - {fileID: 11400000, guid: c426c84dff074d3fb6b720842d4123d8, type: 2}
+  - {fileID: 11400000, guid: 14f20b9513a44eb59ec981ff32f87a00, type: 2}
+  - {fileID: 11400000, guid: 5fa0c23b4079444ab567f39dc0849681, type: 2}
+  - {fileID: 11400000, guid: 2a8e181f3f6e42cdac1615911e203198, type: 2}
+  - {fileID: 11400000, guid: fd41c3e351a34a778ce093cfedc263b0, type: 2}
+  - {fileID: 11400000, guid: d6e53242270a4200a01346955135989b, type: 2}
+  - {fileID: 11400000, guid: 8aa18c5194eb473284e29815f94bae82, type: 2}
+  - {fileID: 11400000, guid: 98994e5ae5b147ccbaf7f6b04d1c6fcd, type: 2}
+  - {fileID: 11400000, guid: 65e680ec48434e508709fdcfb3579efa, type: 2}
+  - {fileID: 11400000, guid: d8ee80f121f041a48854b9515dc97ad8, type: 2}
+  - {fileID: 11400000, guid: 07d5537de25b4fc49ae9646c9e1a9dcd, type: 2}
+  - {fileID: 11400000, guid: 6aeb09abc9314767a045e7172af0be94, type: 2}
+  - {fileID: 11400000, guid: 8a31210c27ed4ea2aa39620eec89de5d, type: 2}
+  - {fileID: 11400000, guid: 8adb3d6d7df04bb4bbd93dd1abe49933, type: 2}
+  - {fileID: 11400000, guid: 71b333098b894a41a8cbca3276148c5d, type: 2}
+  _values:
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: 8c693464d5944f6c93db91074dad1d82, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: 73dd86b337dc42eda8d2d945c5261977, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: 3f37c9e771354872809e930246547a2a, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: d2a64f8f09ef44a0911358e1b1c3a91a, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: c426c84dff074d3fb6b720842d4123d8, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: 14f20b9513a44eb59ec981ff32f87a00, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: 5fa0c23b4079444ab567f39dc0849681, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: 2a8e181f3f6e42cdac1615911e203198, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: fd41c3e351a34a778ce093cfedc263b0, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: d6e53242270a4200a01346955135989b, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: 8aa18c5194eb473284e29815f94bae82, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: 98994e5ae5b147ccbaf7f6b04d1c6fcd, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: 65e680ec48434e508709fdcfb3579efa, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: d8ee80f121f041a48854b9515dc97ad8, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: 07d5537de25b4fc49ae9646c9e1a9dcd, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: 6aeb09abc9314767a045e7172af0be94, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: 8a31210c27ed4ea2aa39620eec89de5d, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: 8adb3d6d7df04bb4bbd93dd1abe49933, type: 2}
+  - _keys: []
+    _values: []
+    _target: {fileID: 11400000, guid: 71b333098b894a41a8cbca3276148c5d, type: 2}

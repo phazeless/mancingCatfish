@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac7c35d087693cf5b01fb161081ef05, type: 3}
+  m_Name: 14-Crew-Jen
+  m_EditorClassIdentifier: 
+  _objectReferences:
+  - {fileID: 21300000, guid: ff9747443ad84e6e9a24ad0c4408a1f9, type: 3}
+  - {fileID: 11400000, guid: 1cc57b6218e749c5a852aa77ce53ffe8, type: 2}
+  - {fileID: 11400000, guid: d32246eb9105424b8db91c47442135cc, type: 2}
+  - {fileID: 11400000, guid: ee155a76be3a4b3ca2c847e7fd519759, type: 2}
+  _serializedStateKeys:
+  - IsUnlocked
+  - skillType
+  - activeSkill
+  - skillExtraInfo
+  - skillBehaviours
+  _serializedStateValues:
+  - false
+  - '"Passive"'
+  - 
+  - '{"IsCrew":true,"IsPartOfSkillTree":false,"IgnoreReset":false,"IgnoreIGN":false,"IsFacebookCrew":false,"IsOnlyAvailableThroughPurchase":true,"CacheCurrentLevelAsBigInteger":false,"Icon":0,"IconBgColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"TitleText":"Jen","DescriptionText":"I
+    love to hide things, can you find them?","MiscText":"Kapoeew!","PurchaseWith":"Gems","CostMethod":"ByFormula1","InitialUpgradeCost":{"Value":{},"stringValue":"0"},"CostPerLevel":{"Value":{},"stringValue":"5"},"ExponentialLevelCostModifier":2,"CostPerLevels":[],"DependancyLevelUp":null,"DependancyLevelUpType":"Lifetime","DependancyLevelUpPerXthLevel":1,"SkillSpecifics":{"$type":"Skills+None"},"RequiredFishingExperience":0,"RequiredDeepWaterLevel":999}'
+  - '[1,2,3]'
+  id: cf48384f-5410-43b3-9445-26f3eb9e34f0
+  skillType: 0
+  duration: 10
+  cooldown: 3600
+  maxLevel: 5
+  skillExtraInfo:
+    IsCrew: 1
+    IsPartOfSkillTree: 0
+    IgnoreReset: 0
+    IgnoreIGN: 0
+    IsFacebookCrew: 0
+    IsOnlyAvailableThroughPurchase: 1
+    CacheCurrentLevelAsBigInteger: 0
+    Icon: {fileID: 21300000, guid: ff9747443ad84e6e9a24ad0c4408a1f9, type: 3}
+    IconBgColor: {r: 1, g: 1, b: 1, a: 1}
+    TitleText: Jen
+    DescriptionText: I love to hide things, can you find them?
+    MiscText: Kapoeew!
+    PurchaseWith: 1
+    CostMethod: 0
+    InitialUpgradeCost:
+      stringValue: 0
+    CostPerLevel:
+      stringValue: 5
+    ExponentialLevelCostModifier: 2
+    CostPerLevels: []
+    DependancyLevelUp: {fileID: 0}
+    DependancyLevelUpType: 1
+    DependancyLevelUpPerXthLevel: 1
+    RequiredFishingExperience: 0
+    RequiredDeepWaterLevel: 999
+  skillBehaviours:
+  - {fileID: 11400000, guid: 1cc57b6218e749c5a852aa77ce53ffe8, type: 2}
+  - {fileID: 11400000, guid: d32246eb9105424b8db91c47442135cc, type: 2}
+  - {fileID: 11400000, guid: ee155a76be3a4b3ca2c847e7fd519759, type: 2}

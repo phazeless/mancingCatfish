@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac7c35d087693cf5b01fb161081ef05, type: 3}
+  m_Name: 8-Crew-Lee
+  m_EditorClassIdentifier: 
+  _objectReferences:
+  - {fileID: 21300000, guid: 5a4ca5ab6ee649bd972287bc705bdc55, type: 3}
+  - {fileID: 11400000, guid: 065010de14a84a66a77338f72f96e0a1, type: 2}
+  - {fileID: 11400000, guid: 82746c3a63264d90a6797eff5f8eb9c8, type: 2}
+  _serializedStateKeys:
+  - IsUnlocked
+  - skillType
+  - activeSkill
+  - skillExtraInfo
+  - skillBehaviours
+  _serializedStateValues:
+  - false
+  - '"Passive"'
+  - 
+  - '{"IsCrew":true,"IsPartOfSkillTree":false,"IgnoreReset":false,"IgnoreIGN":false,"IsFacebookCrew":false,"IsOnlyAvailableThroughPurchase":false,"CacheCurrentLevelAsBigInteger":false,"Icon":0,"IconBgColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"TitleText":"Lee","DescriptionText":"\"I
+    might not seem like much, but I''m the fastest learner around! I''ll get better
+    for every fish you catch!\"","MiscText":"Oooh, hi!","PurchaseWith":"Gems","CostMethod":"ByFormula1","InitialUpgradeCost":{"Value":{},"stringValue":"0"},"CostPerLevel":{"Value":{},"stringValue":"25"},"ExponentialLevelCostModifier":3,"CostPerLevels":[],"DependancyLevelUp":1,"DependancyLevelUpType":"Lifetime","DependancyLevelUpPerXthLevel":200,"SkillSpecifics":{"$type":"Skills+None"},"RequiredFishingExperience":0,"RequiredDeepWaterLevel":8}'
+  - '[2]'
+  id: fc5f19c6-f87c-406a-ae8b-8a67ebdb50fc
+  skillType: 0
+  duration: 0
+  cooldown: 0
+  maxLevel: 9999
+  skillExtraInfo:
+    IsCrew: 1
+    IsPartOfSkillTree: 0
+    IgnoreReset: 0
+    IgnoreIGN: 0
+    IsFacebookCrew: 0
+    IsOnlyAvailableThroughPurchase: 0
+    CacheCurrentLevelAsBigInteger: 0
+    Icon: {fileID: 21300000, guid: 5a4ca5ab6ee649bd972287bc705bdc55, type: 3}
+    IconBgColor: {r: 1, g: 1, b: 1, a: 1}
+    TitleText: Lee
+    DescriptionText: '"I might not seem like much, but I''m the fastest learner around!
+      I''ll get better for every fish you catch!"'
+    MiscText: Oooh, hi!
+    PurchaseWith: 1
+    CostMethod: 0
+    InitialUpgradeCost:
+      stringValue: 0
+    CostPerLevel:
+      stringValue: 25
+    ExponentialLevelCostModifier: 3
+    CostPerLevels: []
+    DependancyLevelUp: {fileID: 11400000, guid: 065010de14a84a66a77338f72f96e0a1,
+      type: 2}
+    DependancyLevelUpType: 1
+    DependancyLevelUpPerXthLevel: 200
+    RequiredFishingExperience: 0
+    RequiredDeepWaterLevel: 8
+  skillBehaviours:
+  - {fileID: 11400000, guid: 82746c3a63264d90a6797eff5f8eb9c8, type: 2}

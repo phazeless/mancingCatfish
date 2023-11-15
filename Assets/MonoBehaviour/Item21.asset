@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2905cd688cd2d8f2d18f61e9d2806b06, type: 3}
+  m_Name: "Item21"
+  m_EditorClassIdentifier: 
+  _objectReferences:
+  - {fileID: 11400000, guid: 55bf851324334b738272492d5dd682a8, type: 2}
+  - {fileID: 11400000, guid: 4b8fd7ca00ed40e38006d728d0b8ab9b, type: 2}
+  _serializedStateKeys:
+  - "iconBgColor"
+  - "rarity"
+  - "skillBehaviours"
+  - "customLogics"
+  _serializedStateValues:
+  - "{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":0.1960784}"
+  - "\"Common\""
+  - "[0,1]"
+  - "[]"
+  id: "78a1aad8-eacc-4500-a8cd-0471e8918b25"
+  maxLevel: 10
+  icon: {fileID: 21300000, guid: 8cb70c729bc143dc967a427a0c71f843, type: 3}
+  iconBgColor: {r: 1, g: 1, b: 1, a: 0.1960784}
+  rarity: 0
+  title: "Christmas Bob"
+  description: "A cheap excuse to use a Christmas balls all year round."
+  skillBehaviours:
+  - {fileID: 11400000, guid: 55bf851324334b738272492d5dd682a8, type: 2}
+  - {fileID: 11400000, guid: 4b8fd7ca00ed40e38006d728d0b8ab9b, type: 2}
+  isHolidayItem: 1

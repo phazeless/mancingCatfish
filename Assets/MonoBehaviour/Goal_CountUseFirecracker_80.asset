@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdb45fb79b3ebef816622d87d27d3b6d, type: 3}
+  m_Name: "Goal_CountUseFirecracker_80"
+  m_EditorClassIdentifier: 
+  id: "9c9e5584-a868-42f5-99de-29717eb13f2c"
+  description: "Shoot fireworks"
+  goalReward: {fileID: 11400000, guid: bda683f12b7b49328e0e11ea02b790d3, type: 2}
+  consumable: {fileID: 11400000, guid: 223293c90c2245e896fbcef174b399c0, type: 2}
+  targetUseAmount: 80

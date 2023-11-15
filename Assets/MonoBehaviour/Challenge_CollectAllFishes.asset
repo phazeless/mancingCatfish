@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c3c981d4bb719b18500028c631f99f9, type: 3}
+  m_Name: "Challenge_CollectAllFishes"
+  m_EditorClassIdentifier: 
+  id: "e0b3af13-08ea-4924-a4f0-219a02c20eb7"
+  useBigIntegerCashFormatting: 0
+  goals:
+  - {fileID: 11400000, guid: 029577eacb8c46ae9ee70b88873ff3b2, type: 2}
+  - {fileID: 11400000, guid: 3f4bbd8be37b47a6937b1b5664ad8aa1, type: 2}
+  - {fileID: 11400000, guid: 8bb0b6fbee60409d9a2304fbee6a5ca4, type: 2}
+  - {fileID: 11400000, guid: 3e4ada8e3e0946bbb328588a1a0728fa, type: 2}
+  - {fileID: 11400000, guid: b71ed0cf66c547c8a3ee1dc4fdd7a7a9, type: 2}
+  - {fileID: 11400000, guid: 546a87bf0b2c413cb51d64fc8d8be592, type: 2}
+  - {fileID: 11400000, guid: 5bab1b012cbe47738da77257fb854495, type: 2}
+  - {fileID: 11400000, guid: 9530d15b725942959d0a266432681a89, type: 2}

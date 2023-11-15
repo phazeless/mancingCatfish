@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fab191a716492e39f274fe46db6cebc, type: 3}
+  m_Name: "Quest_CatchFish2"
+  m_EditorClassIdentifier: 
+  title: "It's Fishing Time"
+  questDescription: "Catch {goal} fish"
+  skill: {fileID: 11400000, guid: 065010de14a84a66a77338f72f96e0a1, type: 2}
+  goal: 2500
+  gemReward: 10
+  goalType: 1
+  restartAfterCompletion: 1

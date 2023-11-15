@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2905cd688cd2d8f2d18f61e9d2806b06, type: 3}
+  m_Name: "Item28_4thjuly"
+  m_EditorClassIdentifier: 
+  _objectReferences:
+  - {fileID: 11400000, guid: c62f2c3aaf014b1ea335823cdd22a595, type: 2}
+  _serializedStateKeys:
+  - "iconBgColor"
+  - "rarity"
+  - "skillBehaviours"
+  - "customLogics"
+  _serializedStateValues:
+  - "{\"r\":0.0,\"g\":0.0,\"b\":0.0,\"a\":0.1960784}"
+  - "\"Rare\""
+  - "[0]"
+  - "[]"
+  id: "5d1bdc9c-f7f3-4084-af48-a2d53a1db958"
+  maxLevel: 8
+  icon: {fileID: 21300000, guid: f70fdf8b05ec434e90e711c114e6f086, type: 3}
+  iconBgColor: {r: 0, g: 0, b: 0, a: 0.1960784}
+  rarity: 1
+  title: "American Flag"
+  description: "A true patriot needs this on the boat!"
+  skillBehaviours:
+  - {fileID: 11400000, guid: c62f2c3aaf014b1ea335823cdd22a595, type: 2}
+  isHolidayItem: 1

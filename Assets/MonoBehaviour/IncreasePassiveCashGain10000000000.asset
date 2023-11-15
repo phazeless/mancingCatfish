@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6292212463c7f6b8a4b593fabca616be, type: 3}
+  m_Name: IncreasePassiveCashGain10000000000
+  m_EditorClassIdentifier: 
+  _objectReferences: []
+  _serializedStateKeys:
+  - changeValue
+  - changeValueType
+  - calculationType
+  - initialValueUsage
+  - changeMethod
+  - curveChangePerLevel
+  _serializedStateValues:
+  - '{"$type":"Skills+PassiveCashGain"}'
+  - '"Calculation"'
+  - '"AddToBase"'
+  - '"UseExistingInitialValue"'
+  - '"ChangeByConstant"'
+  - 
+  description: '{0} every second'
+  postFixCharacter: $
+  changeValueType: 1
+  calculationType: 0
+  initialValueUsage: 0
+  initialValue: 5
+  changeMethod: 0
+  constantChangePerLevel: 2e+10
+  customChangePerLevel:
+  - 100
+  - 200
+  - 400
+  - 600
+  - 1000
+  - 1500
+  - 2000
+  - 2500
+  - 3000
+  - 4000
+  - 5000
+  - 7000
+  - 10000
+  - 15000
+  - 20000
+  - 30000
+  curveChangePerLevel:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  constantValue: -1

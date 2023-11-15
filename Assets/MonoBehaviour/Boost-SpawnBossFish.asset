@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac7c35d087693cf5b01fb161081ef05, type: 3}
+  m_Name: "Boost-SpawnBossFish"
+  m_EditorClassIdentifier: 
+  _objectReferences:
+  - {fileID: 21300000, guid: a7a4340adb1245f19c4c09eda9aaf38c, type: 3}
+  _serializedStateKeys:
+  - "IsUnlocked"
+  - "skillType"
+  - "activeSkill"
+  - "skillExtraInfo"
+  - "skillBehaviours"
+  _serializedStateValues:
+  - "true"
+  - "\"Active\""
+  - "{\"$type\":\"Skills+BoostSpawnBossFish\"}"
+  - "{\"IsCrew\":false,\"IsPartOfSkillTree\":false,\"IgnoreReset\":false,\"IgnoreIGN\":false,\"IsFacebookCrew\":false,\"IsOnlyAvailableThroughPurchase\":false,\"CacheCurrentLevelAsBigInteger\":false,\"Icon\":0,\"IconBgColor\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"TitleText\":\"0\",\"DescriptionText\":\"No
+  description has been assigned...\",\"MiscText\":\"No misc-text has been
+  assigned...\",\"PurchaseWith\":\"Gems\",\"CostMethod\":\"ByFormula1\",\"InitialUpgradeCost\":{\"Value\":{},\"stringValue\":\"0\"},\"CostPerLevel\":{\"Value\":{},\"stringValue\":\"0\"},\"ExponentialLevelCostModifier\":0,\"CostPerLevels\":[],\"DependancyLevelUp\":null,\"DependancyLevelUpType\":\"Current\",\"DependancyLevelUpPerXthLevel\":1,\"SkillSpecifics\":{\"$type\":\"Skills+None\"},\"RequiredFishingExperience\":0,\"RequiredDeepWaterLevel\":0}"
+  - "[]"
+  id: "38024dc8-cea0-4950-b0bf-a383e90f571e"
+  skillType: 1
+  duration: 0
+  cooldown: 2
+  maxLevel: 0
+  skillExtraInfo:
+    IsCrew: 0
+    IsPartOfSkillTree: 0
+    IgnoreReset: 0
+    IgnoreIGN: 0
+    IsFacebookCrew: 0
+    IsOnlyAvailableThroughPurchase: 0
+    CacheCurrentLevelAsBigInteger: 0
+    Icon: {fileID: 21300000, guid: a7a4340adb1245f19c4c09eda9aaf38c, type: 3}
+    IconBgColor: {r: 1, g: 1, b: 1, a: 1}
+    TitleText: "0"
+    DescriptionText: "No description has been assigned..."
+    MiscText: "No misc-text has been assigned..."
+    PurchaseWith: 1
+    CostMethod: 0
+    InitialUpgradeCost:
+      stringValue: "0"
+    CostPerLevel:
+      stringValue: "0"
+    ExponentialLevelCostModifier: 0
+    CostPerLevels: []
+    DependancyLevelUp: {fileID: 0}
+    DependancyLevelUpType: 0
+    DependancyLevelUpPerXthLevel: 1
+    RequiredFishingExperience: 0
+    RequiredDeepWaterLevel: 0
+  skillBehaviours: []

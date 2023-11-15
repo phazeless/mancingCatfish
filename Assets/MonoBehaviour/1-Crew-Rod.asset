@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac7c35d087693cf5b01fb161081ef05, type: 3}
+  m_Name: 1-Crew-Rod
+  m_EditorClassIdentifier: 
+  _objectReferences:
+  - {fileID: 21300000, guid: 78727a680caa4e028631b0bfdab62528, type: 3}
+  - {fileID: 11400000, guid: 2cd92d266a0c4270910196326fea49b8, type: 2}
+  - {fileID: 11400000, guid: 188b51dda05746a8bfbe1baef8dfdbf0, type: 2}
+  _serializedStateKeys:
+  - IsUnlocked
+  - skillType
+  - activeSkill
+  - skillExtraInfo
+  - skillBehaviours
+  _serializedStateValues:
+  - true
+  - '"Passive"'
+  - 
+  - '{"IsCrew":true,"IsPartOfSkillTree":false,"IgnoreReset":false,"IgnoreIGN":false,"IsFacebookCrew":false,"IsOnlyAvailableThroughPurchase":false,"CacheCurrentLevelAsBigInteger":false,"Icon":0,"IconBgColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"TitleText":"Rodrick","DescriptionText":"\"I''ll
+    keep your earnings flowing while you are away! Just remember to get back before
+    the boat is full!\"","MiscText":"Hi Boss,           Rod here!","PurchaseWith":"Gems","CostMethod":"ByLevel","InitialUpgradeCost":{"Value":{},"stringValue":"0"},"CostPerLevel":{"Value":{},"stringValue":"3"},"ExponentialLevelCostModifier":2,"CostPerLevels":[{"Value":{},"stringValue":"0"},{"Value":{},"stringValue":"5"},{"Value":{},"stringValue":"10"},{"Value":{},"stringValue":"20"},{"Value":{},"stringValue":"35"},{"Value":{},"stringValue":"50"},{"Value":{},"stringValue":"70"},{"Value":{},"stringValue":"90"},{"Value":{},"stringValue":"120"},{"Value":{},"stringValue":"150"},{"Value":{},"stringValue":"180"},{"Value":{},"stringValue":"210"},{"Value":{},"stringValue":"240"},{"Value":{},"stringValue":"270"},{"Value":{},"stringValue":"300"},{"Value":{},"stringValue":"330"},{"Value":{},"stringValue":"360"},{"Value":{},"stringValue":"400"},{"Value":{},"stringValue":"440"},{"Value":{},"stringValue":"480"},{"Value":{},"stringValue":"520"},{"Value":{},"stringValue":"560"},{"Value":{},"stringValue":"600"},{"Value":{},"stringValue":"650"},{"Value":{},"stringValue":"700"},{"Value":{},"stringValue":"750"}],"DependancyLevelUp":null,"DependancyLevelUpType":"Current","DependancyLevelUpPerXthLevel":10,"SkillSpecifics":{"$type":"Skills+None"},"RequiredFishingExperience":0,"RequiredDeepWaterLevel":999}'
+  - '[1,2]'
+  id: 2fbdbb84-2cd6-4134-8fd3-63ca3ed3e13f
+  skillType: 0
+  duration: 0
+  cooldown: 0
+  maxLevel: 25
+  skillExtraInfo:
+    IsCrew: 1
+    IsPartOfSkillTree: 0
+    IgnoreReset: 0
+    IgnoreIGN: 0
+    IsFacebookCrew: 0
+    IsOnlyAvailableThroughPurchase: 0
+    CacheCurrentLevelAsBigInteger: 0
+    Icon: {fileID: 21300000, guid: 78727a680caa4e028631b0bfdab62528, type: 3}
+    IconBgColor: {r: 1, g: 1, b: 1, a: 1}
+    TitleText: Rodrick
+    DescriptionText: '"I''ll keep your earnings flowing while you are away! Just remember
+      to get back before the boat is full!"'
+    MiscText: Hi Boss,           Rod here!
+    PurchaseWith: 1
+    CostMethod: 1
+    InitialUpgradeCost:
+      stringValue: 0
+    CostPerLevel:
+      stringValue: 3
+    ExponentialLevelCostModifier: 2
+    CostPerLevels:
+    - stringValue: 0
+    - stringValue: 5
+    - stringValue: 10
+    - stringValue: 20
+    - stringValue: 35
+    - stringValue: 50
+    - stringValue: 70
+    - stringValue: 90
+    - stringValue: 120
+    - stringValue: 150
+    - stringValue: 180
+    - stringValue: 210
+    - stringValue: 240
+    - stringValue: 270
+    - stringValue: 300
+    - stringValue: 330
+    - stringValue: 360
+    - stringValue: 400
+    - stringValue: 440
+    - stringValue: 480
+    - stringValue: 520
+    - stringValue: 560
+    - stringValue: 600
+    - stringValue: 650
+    - stringValue: 700
+    - stringValue: 750
+    DependancyLevelUp: {fileID: 0}
+    DependancyLevelUpType: 0
+    DependancyLevelUpPerXthLevel: 10
+    RequiredFishingExperience: 0
+    RequiredDeepWaterLevel: 999
+  skillBehaviours:
+  - {fileID: 11400000, guid: 2cd92d266a0c4270910196326fea49b8, type: 2}
+  - {fileID: 11400000, guid: 188b51dda05746a8bfbe1baef8dfdbf0, type: 2}

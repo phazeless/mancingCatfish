@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2905cd688cd2d8f2d18f61e9d2806b06, type: 3}
+  m_Name: "Item6"
+  m_EditorClassIdentifier: 
+  _objectReferences:
+  - {fileID: 11400000, guid: fc07a64b4bc8443fac0483b7b65baea3, type: 2}
+  - {fileID: 11400000, guid: 9bd5de56a8644cd5aa151d08d4ad879b, type: 2}
+  - {fileID: 11400000, guid: 03af50caf87a45b681ab1d85db46c6a6, type: 2}
+  _serializedStateKeys:
+  - "iconBgColor"
+  - "rarity"
+  - "skillBehaviours"
+  - "customLogics"
+  _serializedStateValues:
+  - "{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":0.1960784}"
+  - "\"Common\""
+  - "[0,1,2]"
+  - "[]"
+  id: "9464b470-6339-4e3b-9159-bf9f5eed43b4"
+  maxLevel: 10
+  icon: {fileID: 21300000, guid: 920aabaa57c64851b5c1e83648fb2377, type: 3}
+  iconBgColor: {r: 1, g: 1, b: 1, a: 0.1960784}
+  rarity: 0
+  title: "Lucky Hat"
+  description: "Jack's Favorite Hat"
+  skillBehaviours:
+  - {fileID: 11400000, guid: fc07a64b4bc8443fac0483b7b65baea3, type: 2}
+  - {fileID: 11400000, guid: 9bd5de56a8644cd5aa151d08d4ad879b, type: 2}
+  - {fileID: 11400000, guid: 03af50caf87a45b681ab1d85db46c6a6, type: 2}
+  isHolidayItem: 0

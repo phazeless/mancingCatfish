@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c74612297345fbdc130348ffdbfe939, type: 3}
+  m_Name: "EventChallenge_4thJuly"
+  m_EditorClassIdentifier: 
+  id: "d01229e4-8d56-49ac-8e6f-1f56a517ee91"
+  ColorMain: {r: 0.03921569, g: 0.4666667, b: 0.7176471, a: 1}
+  ColorMainLighter: {r: 0.227451, g: 0.6235294, b: 0.8588236, a: 1}
+  ColorMainBackground: {r: 1, g: 1, b: 1, a: 1}
+  ColorTextOnMainBackground: {r: 0.3372549, g: 0.3372549, b: 0.3372549, a: 1}
+  Name: "4thOfJulyEvent"
+  Availability: {fileID: 1790284858828098689, guid: 4a5f61a5015591a4e96ca6f73f2c3147, type: 2}
+  ReductionConsumable: {fileID: 11400000, guid: 61b7c5ea179b4b5ea5f68346f6eceb02, type: 2}
+  StartingBonus: {fileID: 11400000, guid: 7ce4075a38444ffcbc5ab388c89ee0fa, type: 2}
+  IGNIconPrefab: {fileID: 1790284858828076698, guid: 27a804adef8bd904a92abd5e47ed2926, type: 2}
+  RewardBasketPrefab: {fileID: 1790284858828075290, guid: 79f4edcf68e6a564ab484ae7a6b3c094, type: 2}
+  IGNEventChallengesDialogPrefab: {fileID: 1790284858828100110, guid: e776be18f0d3c4644a543d37e42c5813, type: 2}
+  UIEventChallengePrefab: {fileID: 1790284858828098630, guid: 746fd0d16e6cf864b9d1afde135a24c9, type: 2}
+  InfoContentPrefab: {fileID: 1790284858828079007, guid: 01eba207eaf8978468e4dd210de12d3d, type: 2}
+  Title: "Independence Day"
+  SubTitle: "Event has started!"
+  Description: "Finish the <color=#0A77B7FF><b>Challenges<\x2fb><\x2fcolor> and claim the
+  rewards!"
+  BigRewardInitialCost: 500
+  SpecialOfferForEvent: {fileID: 1790284858828099127, guid: 7a25b2f97fb02f44abbb5cc470943bef, type: 2}
+  QuestNeededUntilActivated: {fileID: 11400000, guid: 2e21064155684d009629b0dd1c420d36, type: 2}
+  BigRewardContents:
+  - {fileID: 11400000, guid: c4bdba8cbf71453fa848fdaf49795eb8, type: 2}
+  - {fileID: 11400000, guid: 61d86dd35a44439bb776674763695542, type: 2}
+  - {fileID: 11400000, guid: 8576321a4dcd489abc16b0ccd14bed8f, type: 2}
+  - {fileID: 11400000, guid: 2557fa2ffcf24d30b5d8cfbc2d0ce234, type: 2}
+  Challenges:
+  - {fileID: 11400000, guid: 4a4dd85720874e93bc03187d8c0421ff, type: 2}
+  - {fileID: 11400000, guid: 8e4283a7dab8431d8a9a5ec5d13163fa, type: 2}
+  - {fileID: 11400000, guid: 23fc55b0bc2b45f49b780e2238f3db88, type: 2}

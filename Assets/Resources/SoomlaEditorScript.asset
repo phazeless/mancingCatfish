@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9f2aa74d745cd5fdc359b3f8862af2, type: 3}
+  m_Name: "SoomlaEditorScript"
+  m_EditorClassIdentifier: 
+  SoomlaSettings:
+    values:
+    - name: "SoomlaSecret"
+      value: "SET ONLY ONCE"
+    - name: "DebugUnityMessages"
+      value: "True"
+    - name: "Soomla.Core.DebugUnityMessages"
+      value: "False"
+    - name: "Soomla.Core.SoomlaSecret"
+      value: "derpherp"
+    - name: "Soomla.Store.GPlayBP"
+      value: "True"
+    - name: "Soomla.Store.AmazonBP"
+      value: 
+    - name: "Soomla.Core.DebugMessages"
+      value: 
+    - name: "Soomla.Store.NoneBP"
+      value: 
+    - name: "Soomla.Store.AndroidPublicKey"
+      value: "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAslRwWHpF8PVmeKSwyNq0v+3Oz8dK0qmw72HsO\x2fEwiHG5+NCewNU+HRoO7TTG0k5JRBpI2BUQr4Wvc3xyV+UR6DNSeVplAW1NeDQs5AhEG8t0Qo1VSgjTY9sagr7pn98kE7BZSIXGxXW6X1bFdeQ0r8rhd2yiGBWPNyiYeJm\x2fVbudgM9mL9rrEwacBJGF7cak35uEjj+ekZfCGYhmAeWpMwA+O8j4rdebrSNtq+T0KvWIn2LEw+J+7AZV3esJAJUQxsNrhw9svTpS7R1I85bSufHX3nBTzUI5cNCOVJZwy59AphF7FwneAds0k6rj78S4FFUfZpHpLsneoElWiUrUNQIDAQAB"
+    - name: "Soomla.Store.AndroidTestPurchases"
+      value: "True"
+    - name: "Soomla.Store.PlaySsvValidation"
+      value: 

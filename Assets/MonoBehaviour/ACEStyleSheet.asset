@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40057b1e6e7e2f95940882abaa97e109, type: 3}
+  m_Name: "ACEStyleSheet"
+  m_EditorClassIdentifier: 
+  m_StyleList:
+  - m_Name: "upgradeValue"
+    m_HashCode: 413331707
+    m_OpeningDefinition: "<color=#ea5b0c>"
+    m_ClosingDefinition: "<\x2fcolor>"
+    m_OpeningTagArray: 3C000000630000006F0000006C0000006F000000720000003D000000230000006500000061000000350000006200000030000000630000003E000000
+    m_ClosingTagArray: 3C0000002F000000630000006F0000006C0000006F000000720000003E000000
+  - m_Name: "crewValue"
+    m_HashCode: -534663064
+    m_OpeningDefinition: "<color=#c371c6>"
+    m_ClosingDefinition: "<\x2fcolor>"
+    m_OpeningTagArray: 3C000000630000006F0000006C0000006F000000720000003D000000230000006300000033000000370000003100000063000000360000003E000000
+    m_ClosingTagArray: 3C0000002F000000630000006F0000006C0000006F000000720000003E000000

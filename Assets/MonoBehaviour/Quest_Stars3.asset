@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fab191a716492e39f274fe46db6cebc, type: 3}
+  m_Name: "Quest_Stars3"
+  m_EditorClassIdentifier: 
+  title: "A Real Star"
+  questDescription: "Collect {goal} stars"
+  skill: {fileID: 11400000, guid: 46598036f8e4442c923a510a4cacfcb1, type: 2}
+  goal: 28
+  gemReward: 10
+  goalType: 1
+  restartAfterCompletion: 0

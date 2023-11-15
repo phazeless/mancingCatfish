@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac7c35d087693cf5b01fb161081ef05, type: 3}
+  m_Name: _CollectStarsSkill
+  m_EditorClassIdentifier: 
+  _objectReferences:
+  - {fileID: 21300000, guid: fd67542a9a94457db8a7e2bc12743d85, type: 3}
+  - {fileID: 11400000, guid: 5c6ccf52cef447e6ad035aaac5b30785, type: 2}
+  _serializedStateKeys:
+  - IsUnlocked
+  - skillType
+  - activeSkill
+  - skillExtraInfo
+  - skillBehaviours
+  _serializedStateValues:
+  - true
+  - '"Passive"'
+  - 
+  - '{"IsCrew":false,"IsPartOfSkillTree":false,"IgnoreReset":false,"IgnoreIGN":false,"IsFacebookCrew":false,"IsOnlyAvailableThroughPurchase":false,"CacheCurrentLevelAsBigInteger":false,"Icon":0,"IconBgColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"TitleText":"Star
+    Collector","DescriptionText":"-","MiscText":"No misc-text has been assigned...","PurchaseWith":"Cash","CostMethod":"ByFormula1","InitialUpgradeCost":{"Value":{},"stringValue":"0"},"CostPerLevel":{"Value":{},"stringValue":"0"},"ExponentialLevelCostModifier":0,"CostPerLevels":[],"DependancyLevelUp":null,"DependancyLevelUpType":"Current","DependancyLevelUpPerXthLevel":1,"SkillSpecifics":{"$type":"Skills+None"},"RequiredFishingExperience":0,"RequiredDeepWaterLevel":0}'
+  - '[1]'
+  id: 8f164c9e-e8dc-49ad-9a68-4e8d3565b049
+  skillType: 0
+  duration: 0
+  cooldown: 0
+  maxLevel: 99999
+  skillExtraInfo:
+    IsCrew: 0
+    IsPartOfSkillTree: 0
+    IgnoreReset: 0
+    IgnoreIGN: 0
+    IsFacebookCrew: 0
+    IsOnlyAvailableThroughPurchase: 0
+    CacheCurrentLevelAsBigInteger: 0
+    Icon: {fileID: 21300000, guid: fd67542a9a94457db8a7e2bc12743d85, type: 3}
+    IconBgColor: {r: 1, g: 1, b: 1, a: 1}
+    TitleText: Star Collector
+    DescriptionText: '-'
+    MiscText: No misc-text has been assigned...
+    PurchaseWith: 0
+    CostMethod: 0
+    InitialUpgradeCost:
+      stringValue: 0
+    CostPerLevel:
+      stringValue: 0
+    ExponentialLevelCostModifier: 0
+    CostPerLevels: []
+    DependancyLevelUp: {fileID: 0}
+    DependancyLevelUpType: 0
+    DependancyLevelUpPerXthLevel: 1
+    RequiredFishingExperience: 0
+    RequiredDeepWaterLevel: 0
+  skillBehaviours:
+  - {fileID: 11400000, guid: 5c6ccf52cef447e6ad035aaac5b30785, type: 2}
